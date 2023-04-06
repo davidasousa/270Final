@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T20:48:10.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6r47W8IhDqMzIswombh9" version="21.1.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-06T20:57:39.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="AZnK6vPyOXuGXIsB66hp" version="21.1.4" type="github" pages="8">
   <diagram name="Page-1" id="3ZVYQGt_Ha_OL4bJZ0GC">
     <mxGraphModel dx="472" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cDwwE1Fv8zB62oKRO593" name="Page-8">
-    <mxGraphModel dx="378" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="738" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -281,8 +281,8 @@
         <mxCell id="63erxIo9TCyx8Y_dY3Wp-14" value="RST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="175" y="345" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mk_F82WKdeOb5iO2QXn9-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="210" width="50" height="30" as="geometry" />
+        <mxCell id="mk_F82WKdeOb5iO2QXn9-4" value="if(rst == 1)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;seq_smpl [7:0] = 4&#39;b0000&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;else if(mode == set_edit) begin&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;case(set_time_idx)&lt;br&gt;3b&#39;000: seq_smpl_1 &amp;lt;= seq_smpl_1 ^ tgl_play_smpl;&lt;br&gt;3b&#39;001: seq_smpl_2 &amp;lt;= seq_smpl_2 ^ tgl_play_smpl;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3b&#39;010: seq_smpl_3 &amp;lt;= seq_smpl_3 ^ tgl_play_smpl;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3b&#39;011: seq_smpl_4 &amp;lt;= seq_smpl_4 ^ tgl_play_smpl;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3b&#39;100: seq_smpl_5 &amp;lt;= seq_smpl_5 ^ tgl_play_smpl;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3b&#39;101: seq_smpl_6 &amp;lt;= seq_smpl_6 ^ tgl_play_smpl;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3b&#39;110: seq_smpl_7 &amp;lt;= seq_smpl_7 ^ tgl_play_smpl;&lt;br&gt;default: &lt;br&gt;seq_smpl_8 &amp;lt;= seq_smpl_8 ^ tgl_play_smpl;&lt;br&gt;endcase&lt;br&gt;end&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="281" width="340" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
