@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T18:29:24.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zbuRsh2U1sLYwXtetn9K" version="21.1.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-06T18:46:24.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2Nea_Lq4WBqal55u95Bs" version="21.1.4" type="github" pages="8">
   <diagram name="Page-1" id="3ZVYQGt_Ha_OL4bJZ0GC">
     <mxGraphModel dx="493" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -192,8 +192,8 @@
             <mxPoint x="310" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g6y45zgezmrQMdTNKy7T-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="250" width="160" height="90" as="geometry" />
+        <mxCell id="g6y45zgezmrQMdTNKy7T-8" value="if (srst)&lt;br&gt;next_seq_out &amp;lt;= 8&#39;b10000000&lt;br&gt;else if(go_left)&lt;br&gt;next_seq_out &amp;lt;= &amp;lt;&amp;lt;&lt;br&gt;else&lt;br&gt;next_seq_out &amp;lt;= &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g6y45zgezmrQMdTNKy7T-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -241,7 +241,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cDwwE1Fv8zB62oKRO593" name="Page-8">
-    <mxGraphModel dx="605" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="578" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -287,6 +287,12 @@
               <mxPoint x="220" y="210" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="63erxIo9TCyx8Y_dY3Wp-14" value="RST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="345" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63erxIo9TCyx8Y_dY3Wp-17" value="if(rst == 1)&lt;br&gt;seq_smpl [7:0] = 4&#39;b0000&amp;nbsp;&lt;br&gt;else if(mode == set_edit)&lt;br&gt;Logic 3:0 idx = set_time_idx&lt;br&gt;seq_smpl[idx][TGL_PLAY_SAMPLE] - invert&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="200" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
