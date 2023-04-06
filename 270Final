@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T22:58:48.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mjPoGeAFXrlXalYv5yZA" version="21.1.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-06T23:10:47.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="KWAIA7SRDw4UC0eoTwhx" version="21.1.4" type="github" pages="8">
   <diagram name="Page-1" id="3ZVYQGt_Ha_OL4bJZ0GC">
     <mxGraphModel dx="749" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -405,7 +405,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FRRH8xBswmaxwk8Hgyd8" name="Page-5">
-    <mxGraphModel dx="838" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="509" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,10 +413,47 @@
           <mxGeometry x="10" y="10" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="R2bQrE60p72nV4Nnc4Nk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="230" width="380" height="310" as="geometry" />
+          <mxGeometry x="70" y="220" width="380" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="tpBChiUFgCOMG9leLhI0-1" value="&lt;br&gt;if(enable) begin&amp;nbsp;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[0] = ~Q[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[1] = Q[1] ^ Q[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[2] = Q[2] ^ (Q[1] &amp;amp; Q[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[3] = Q[3] ^ (Q[2] &amp;amp; Q[1] &amp;amp; Q[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[4] = Q[4] ^ (Q[3] &amp;amp; Q[2] &amp;amp; Q[1] &amp;amp; Q[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[5] = Q[5] ^ (Q[4] &amp;amp; Q[3] &amp;amp; Q[2] &amp;amp; Q[1] &amp;amp; Q[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[6] = Q[6] ^ (Q[5] &amp;amp; Q[4] &amp;amp; Q[3] &amp;amp; Q[2] &amp;amp; Q[1] &amp;amp; Q[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_Q[7] = Q[7] ^ (Q[6] &amp;amp; Q[5] &amp;amp; Q[4] &amp;amp; Q[3] &amp;amp; Q[2] &amp;amp; Q[1] &amp;amp; Q[0]);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;else&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;next_Q = Q;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; end&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="240" width="350" height="300" as="geometry" />
+        <mxCell id="tpBChiUFgCOMG9leLhI0-1" value="&lt;br&gt;if(enable) begin&amp;nbsp;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter0] = ~counter[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter[1] = counter[1] ^ counter[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter[2] = counter[2] ^ (counter[1] &amp;amp; counter[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter[3] = counter[3] ^ (Q[2] &amp;amp; Q[1] &amp;amp; counter[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter[4] = counter[4] ^ (counter[3] &amp;amp; counter[2] &amp;amp; counter[1] &amp;amp; counter[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter[5] = counter[5] ^ (counter[4] &amp;amp; counter[3] &amp;amp; counter[2] &amp;amp; counter[1] &amp;amp; counter[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter[6] = counter[6] ^ (counter[5] &amp;amp; counter[4] &amp;amp; counter[3] &amp;amp; counter[2] &amp;amp; counter[1] &amp;amp; counter[0]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; next_counter[7] = counter[7] ^ (counter[6] &amp;amp; counter[5] &amp;amp; counter[4] &amp;amp; counter[3] &amp;amp; counter[2] &amp;amp; counter[1] &amp;amp; counter[0]);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;else&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;next_counter = counter;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; end&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="350" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="o7tJ0j3pDAGjsPBdcFe--1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o7tJ0j3pDAGjsPBdcFe--4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="290" as="sourcePoint" />
+            <mxPoint x="60" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="180" />
+              <mxPoint x="60" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7tJ0j3pDAGjsPBdcFe--5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="280" as="sourcePoint" />
+            <mxPoint x="70" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7tJ0j3pDAGjsPBdcFe--6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.003;exitY=0.221;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R2bQrE60p72nV4Nnc4Nk-2" target="o7tJ0j3pDAGjsPBdcFe--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="410" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7tJ0j3pDAGjsPBdcFe--7" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o7tJ0j3pDAGjsPBdcFe--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="690" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7tJ0j3pDAGjsPBdcFe--8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="o7tJ0j3pDAGjsPBdcFe--9" value="if(counter &amp;lt;= duty_cycle)&lt;br&gt;pwm_out = 1&lt;br&gt;else&amp;nbsp;&lt;br&gt;pwm_out = 0&lt;br&gt;if(duty_cycle == 0)&lt;br&gt;pwm_out = 0;&lt;br&gt;else if(duty_cycle = 255)&lt;br&gt;pwm_out = 1;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="270" width="100" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
